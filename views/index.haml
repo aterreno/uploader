@@ -1,0 +1,12 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title Superupload
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"}
+    %script{:src => "/superupload.js"}
+  %body
+    %input#the-file{:name => "file", :type => "file"}
+    %p#upload-status
+    %p#progress
+    #result
